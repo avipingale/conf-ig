@@ -118,6 +118,23 @@ select, button {
     margin-right: 5px; /* Adds spacing between the circle and text */
 }
 
+.btn-common .greenred-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Keeps it a perfect circle */
+    background: linear-gradient(to right, green 50%, red 50%);
+    margin-right: 5px;
+}
+
+.btn-common .yellowblack-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Keeps it a perfect circle */
+    background: linear-gradient(to right, rgb(238, 255, 0) 50%, rgb(0, 0, 0) 50%);
+    margin-right: 5px;
+}
+
+
 .btn-common .amber-btn {
     width: 20px;
     height: 20px;
